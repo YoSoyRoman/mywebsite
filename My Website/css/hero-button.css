@@ -1,0 +1,12 @@
+.hero__buttons > .submit-btn:hover {
+
+  background:whitesmoke;
+  border: 3px solid darkslategray;
+  color: darkslategray;
+  font-weight: 400;
+  transition: all 200ms ease-in-out;
+  transform: scale(1.07);
+  font-weight: 400;
+  transition: all 200ms ease-in-out;
+
+  }

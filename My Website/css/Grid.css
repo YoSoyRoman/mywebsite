@@ -1,0 +1,47 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  column-gap: 10px
+}
+
+body{
+  background-image: url(Mountains.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:honeydew;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:honeydew;
+}
+
+div.container {
+  text-align: center;
+}
+
+.main {
+  grid-area: main;
+  
+}
